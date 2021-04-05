@@ -1,0 +1,5 @@
+.header {
+  background-color: var(--black-opacity);
+  border-bottom: 1px solid #2E2E2E;
+  backdrop-filter: saturate(180%) blur(20px);
+}

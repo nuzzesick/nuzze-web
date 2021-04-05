@@ -2,13 +2,11 @@ import PropTypes from 'prop-types';
 import 'tailwindcss/tailwind.css';
 import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component pageProps={pageProps} />;
-}
+const App = ({ Component, pageProps }) => <Component pageProps={pageProps} />;
 
-MyApp.propTypes = {
+App.propTypes = {
   Component: PropTypes.func.isRequired,
   pageProps: PropTypes.shape({}).isRequired,
 };
 
-export default MyApp;
+export default App;
