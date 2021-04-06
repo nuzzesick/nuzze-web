@@ -30,10 +30,20 @@ const Home = () => {
       endDate: 'Now',
       name: 'Bitflix',
       role: 'Creator',
-      description: "Bitflix is an open source web application that allows you to watch movies through torrents directly in your browser. I'm the creator, developer, designer and maintainer of the web-application, but it is also connected to third party API's and projects.",
+      description: "Bitflix is an open source web application that allows you to watch movies through torrents directly in your browser. I'm the creator, developer, designer and maintainer of the app, but it is also connected to third party API's and projects.",
       type: 'project',
       url: 'https://bitflix.surge.sh',
       image: '../images/bitflix.png',
+    },
+    {
+      startDate: 'July 2020',
+      endDate: 'Now',
+      name: 'NextTime',
+      role: 'Creator',
+      description: 'NextTime is an open source web application that allows you to know the time in any country in the world, either now or in the future.',
+      type: 'project',
+      url: 'https://nexttime.now.sh',
+      image: '../images/nexttime.png',
     },
   ];
   return (

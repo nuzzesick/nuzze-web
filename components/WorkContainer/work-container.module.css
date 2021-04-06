@@ -9,3 +9,7 @@
 .Bitflix {
   box-shadow: var(--bitflix-bs);
 }
+
+.NextTime {
+  box-shadow: var(--nexttime-bs);
+}

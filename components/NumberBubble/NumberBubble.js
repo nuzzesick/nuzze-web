@@ -47,6 +47,15 @@ const NumberBubble = ({ w, index }) => (
       <stop stopColor="#2C71D8" />
       <stop offset="1" stopColor="#2260B7" />
     </linearGradient>
+    {/* NextTime */}
+    <linearGradient id="NextTime" x1="65.4712" y1="0.00251966" x2="65.8034" y2="32.507" gradientUnits="userSpaceOnUse">
+      <stop stopColor="#436BD2" stopOpacity="0.09" />
+      <stop offset="1" stopColor="#3F66EE" />
+    </linearGradient>
+    <linearGradient id="NextTimeCircle" x1="88.9981" y1="67.0893" x2="64.4959" y2="67.0932" gradientUnits="userSpaceOnUse">
+      <stop stopColor="#5038E0" />
+      <stop offset="1" stopColor="#423FEE" />
+    </linearGradient>
   </svg>
 );
 

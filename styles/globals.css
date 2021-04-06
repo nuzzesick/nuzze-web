@@ -12,6 +12,7 @@ body {
   --datia-bs: 0px 4px 60px rgba(125, 69, 223, 0.5);
   --rather-bs: 0px 4px 60px rgba(88, 64, 238, 0.5);
   --bitflix-bs: 0px 4px 60px rgba(43, 112, 215, 0.5);
+  --nexttime-bs: 0px 4px 60px #5566e577;
   background-color: var(--black);
 }
 
