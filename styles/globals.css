@@ -6,7 +6,12 @@ body {
   margin: 0;
   font-family: -apple-system, 'Inter', sans-serif;
   --black: #090909;
-  --black-opacity: #090909d9;
+  --black-opacity: #0909099f;
+  --icon: #CACACA;
+  --linkedin-icon: #0A66C2;
+  --datia-bs: 0px 4px 60px rgba(125, 69, 223, 0.5);
+  --rather-bs: 0px 4px 60px rgba(88, 64, 238, 0.5);
+  --bitflix-bs: 0px 4px 60px rgba(43, 112, 215, 0.5);
   background-color: var(--black);
 }
 

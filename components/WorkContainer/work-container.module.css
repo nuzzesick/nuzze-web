@@ -1,0 +1,11 @@
+.Datia {
+  box-shadow: var(--datia-bs);
+}
+
+.Rather {
+  box-shadow: var(--rather-bs);
+}
+
+.Bitflix {
+  box-shadow: var(--bitflix-bs);
+}

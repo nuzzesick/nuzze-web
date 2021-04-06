@@ -1,0 +1,8 @@
+.actionButton svg {
+  fill: var(--icon);
+  margin: 0 0.6rem 0 0;
+}
+
+.actionButton:hover svg {
+  fill: var(--linkedin-icon);
+}
