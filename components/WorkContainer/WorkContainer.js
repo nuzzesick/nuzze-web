@@ -33,7 +33,9 @@ const WorkContainer = ({ w, index }) => {
         </div>
       </div>
       <div className="text-white hidden md:block md:w-6/12 xl:w-5/12 text-right">
-        <img src={w.image} className={classnames(styles[name], 'rounded-sm')} alt={`${w.name}-img`} />
+        <a href={w.url} target="_blank" rel="noreferrer">
+          <img src={w.image} className={classnames(styles[name], 'rounded-sm')} alt={`${w.name}-img`} />
+        </a>
       </div>
     </>
   );
