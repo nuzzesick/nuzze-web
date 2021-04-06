@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const NumberBubble = ({ w, index }) => (
-  <svg className="-ml-8 w-24" viewBox="0 0 129 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg className="mx-auto md:-ml-8 w-24" viewBox="0 0 129 135" fill="none" xmlns="http://www.w3.org/2000/svg">
     <line x1="64.25" y1="65.01" x2="64.25" y2="7.62939e-06" stroke={`url(#${w.name})`} strokeWidth="1.5" />
     <g filter="url(#filter0_d-390698)">
       <circle cx="64.5" cy="68.4995" r="24.5" fill={`url(#${w.name}Circle)`} />

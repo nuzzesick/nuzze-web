@@ -8,7 +8,7 @@ const WorkContainer = ({ w, index }) => {
   const type = w.type.charAt(0).toUpperCase() + w.type.slice(1);
   return (
     <>
-      <div className="flex flex-col text-left md:w-5/12">
+      <div className="flex flex-col md:text-left md:w-5/12">
         <NumberBubble w={w} index={index} />
         <div className="font-semibold text-gray-600 -mt-4">
           {w.startDate}
@@ -27,12 +27,12 @@ const WorkContainer = ({ w, index }) => {
             {type}
           </span>
           <span className="block font-normal text-gray-300 text-md">{w.description}</span>
-          <div className="flex mt-8">
+          <div className="flex mt-8 justify-center md:justify-between">
             <ActionButton url={w.url} type={w.type} />
           </div>
         </div>
       </div>
-      <div className="text-white hidden md:block md:w-6/12 text-right">
+      <div className="text-white hidden md:block md:w-6/12 xl:w-5/12 text-right">
         <img src={w.image} className={classnames(styles[name], 'rounded-sm')} alt={`${w.name}-img`} />
       </div>
     </>
