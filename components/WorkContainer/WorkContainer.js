@@ -5,6 +5,7 @@ import styles from './work-container.module.css';
 
 const WorkContainer = ({ w, index }) => {
   const { name } = w;
+  const type = w.type.charAt(0).toUpperCase() + w.type.slice(1);
   return (
     <>
       <div className="flex flex-col text-left md:w-5/12">
@@ -18,14 +19,20 @@ const WorkContainer = ({ w, index }) => {
         </div>
         <div className="mt-8">
           <h2 className="font-bold text-4xl text-gray-100 tracking-wide">{w.name}</h2>
-          <span className="block font-semibold text-gray-600 text-sm py-3">{w.role}</span>
+          <span className="block font-semibold text-gray-600 text-sm py-3">
+            {w.role}
+            {' '}
+            |
+            {' '}
+            {type}
+          </span>
           <span className="block font-normal text-gray-300 text-md">{w.description}</span>
           <div className="flex mt-8">
             <ActionButton url={w.url} type={w.type} />
           </div>
         </div>
       </div>
-      <div className="text-white hidden md:block md:w-5/12 text-right">
+      <div className="text-white hidden md:block md:w-6/12 text-right">
         <img src={w.image} className={classnames(styles[name], 'rounded-sm')} alt={`${w.name}-img`} />
       </div>
     </>

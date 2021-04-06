@@ -13,3 +13,7 @@
 .NextTime {
   box-shadow: var(--nexttime-bs);
 }
+
+.Entrenando {
+  box-shadow: var(--entrenando-bs);
+}

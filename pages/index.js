@@ -45,6 +45,16 @@ const Home = () => {
       url: 'https://nexttime.now.sh',
       image: '../images/nexttime.png',
     },
+    {
+      startDate: 'June 2020',
+      endDate: 'Now',
+      name: 'Entrenando',
+      role: 'Creator',
+      description: 'Entrenando is an open-source web-application that allows you to know how long time you were training. In my case, I cannot exceed 2 minutes :(',
+      type: 'project',
+      url: 'https://entrenando.now.sh',
+      image: '../images/entrenando.png',
+    },
   ];
   return (
     <div className="px-24">

@@ -13,6 +13,7 @@ body {
   --rather-bs: 0px 4px 60px rgba(88, 64, 238, 0.5);
   --bitflix-bs: 0px 4px 60px rgba(43, 112, 215, 0.5);
   --nexttime-bs: 0px 4px 60px #5566e577;
+  --entrenando-bs: 0px 4px 60px #00000077;
   background-color: var(--black);
 }
 
