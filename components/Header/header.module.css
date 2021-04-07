@@ -3,3 +3,28 @@
   border-bottom: 1px solid #2E2E2E;
   backdrop-filter: saturate(180%) blur(20px);
 }
+
+.menuButton {
+  border: none;
+  outline: 0;
+  background: none;
+}
+
+.menuButton:focus {
+  border: none;
+  outline: 0;
+}
+
+.menuButton img {
+  filter: grayscale(100);
+  transition-duration: 0.4s;
+}
+
+.menuButton:hover img {
+  filter: grayscale(100) brightness(0.6);
+}
+
+.menu {
+  background: var(--black);
+  box-shadow: var(--menu);
+}

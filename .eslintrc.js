@@ -22,5 +22,6 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'import/prefer-default-export': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
   },
 };
