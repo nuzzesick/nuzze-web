@@ -8,7 +8,7 @@ const ActionButton = ({ url, type }) => (
     {
       type === 'job' ? (
         <>
-          <LinkedInIcon />
+          <LinkedInIcon className="w-3" />
           LinkedIn
         </>
       ) : (

@@ -7,3 +7,5 @@ export { LinkedInIcon } from './LinkedInIcon';
 export { WorkContainer } from './WorkContainer';
 export { ViewMoreProjects } from './ViewMoreProjects';
 export { Footer } from './Footer';
+export { TwitterIcon } from './TwitterIcon';
+export { GitHubIcon } from './GitHubIcon';

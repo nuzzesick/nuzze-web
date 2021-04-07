@@ -1,0 +1,23 @@
+.socialContainer {
+  margin-right: -0.3rem;
+}
+
+.socialContainer svg {
+  fill: var(--icon);
+}
+
+.socialContainer a {
+  margin: 0 0.45rem;
+}
+
+.twitter:hover svg {
+  fill: var(--twitter-icon);
+}
+
+.github:hover svg {
+  fill: var(--github-icon);
+}
+
+.linkedin:hover svg {
+  fill: var(--linkedin-icon);
+}
