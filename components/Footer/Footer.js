@@ -9,16 +9,19 @@ const Footer = () => {
       icon: <TwitterIcon className="w-4" />,
       style: styles.twitter,
       url: 'https://www.twitter.com/nuzzze/',
+      name: 'twitter',
     },
     {
       icon: <GitHubIcon className="w-4" />,
       style: styles.github,
       url: 'https://www.github.com/nuzzesick/',
+      name: 'github',
     },
     {
       icon: <LinkedInIcon className="w-4" />,
       style: styles.linkedin,
       url: 'https://www.linkedin.com/in/mat%C3%ADas-nuccetelli-a028141a9/',
+      name: 'linkedin',
     },
   ];
   return (
@@ -32,7 +35,7 @@ const Footer = () => {
         <div className={classnames(styles.socialContainer, 'flex items-center')}>
           {
             socialNetworks.map((s) => (
-              <a href={s.url} target="_blank" rel="noreferrer" className={s.style}>
+              <a href={s.url} target="_blank" rel="noreferrer" className={s.style} key={`social-${s.name}`}>
                 {s.icon}
               </a>
             ))

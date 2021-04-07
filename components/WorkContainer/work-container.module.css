@@ -1,5 +1,6 @@
 .Datia {
   box-shadow: var(--datia-bs);
+  transition-duration: 0.6s;
 }
 
 .Datia:hover {
@@ -8,6 +9,7 @@
 
 .Rather {
   box-shadow: var(--rather-bs);
+  transition-duration: 0.6s;
 }
 
 .Rather:hover {
@@ -15,6 +17,7 @@
 }
 
 .Bitflix {
+  transition-duration: 0.6s;
   box-shadow: var(--bitflix-bs);
 }
 
@@ -24,6 +27,7 @@
 
 .NextTime {
   box-shadow: var(--nexttime-bs);
+  transition-duration: 0.6s;
 }
 
 .NextTime:hover {
@@ -32,6 +36,7 @@
 
 .Entrenando {
   box-shadow: var(--entrenando-bs);
+  transition-duration: 0.6s;
 }
 
 .Entrenando:hover {
