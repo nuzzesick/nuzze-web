@@ -2,18 +2,38 @@
   box-shadow: var(--datia-bs);
 }
 
+.Datia:hover {
+  box-shadow: var(--datia-bs-hover);
+}
+
 .Rather {
   box-shadow: var(--rather-bs);
+}
+
+.Rather:hover {
+  box-shadow: var(--rather-bs-hover);
 }
 
 .Bitflix {
   box-shadow: var(--bitflix-bs);
 }
 
+.Bitflix:hover {
+  box-shadow: var(--bitflix-bs-hover);
+}
+
 .NextTime {
   box-shadow: var(--nexttime-bs);
 }
 
+.NextTime:hover {
+  box-shadow: var(--nexttime-bs-hover);
+}
+
 .Entrenando {
   box-shadow: var(--entrenando-bs);
+}
+
+.Entrenando:hover {
+  box-shadow: var(--entrenando-bs-hover);
 }

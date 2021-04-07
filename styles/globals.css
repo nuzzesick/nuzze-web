@@ -9,11 +9,16 @@ body {
   --black-opacity: #0909099f;
   --icon: #CACACA;
   --linkedin-icon: #0A66C2;
-  --datia-bs: 0px 4px 60px rgba(125, 69, 223, 0.5);
-  --rather-bs: 0px 4px 60px rgba(88, 64, 238, 0.5);
-  --bitflix-bs: 0px 4px 60px rgba(43, 112, 215, 0.5);
-  --nexttime-bs: 0px 4px 60px #5566e577;
-  --entrenando-bs: 0px 4px 60px #00000077;
+  --datia-bs: 0px 4px 45px rgba(125, 69, 223, 0.5);
+  --rather-bs: 0px 4px 45px rgba(88, 64, 238, 0.5);
+  --bitflix-bs: 0px 4px 45px rgba(43, 112, 215, 0.5);
+  --nexttime-bs: 0px 4px 45px #5566e577;
+  --entrenando-bs: 0px 4px 45px #00000077;
+  --datia-bs-hover: 0px 8px 80px rgba(125, 69, 223, 0.637);
+  --rather-bs-hover: 0px 8px 80px rgba(87, 64, 238, 0.63);
+  --bitflix-bs-hover: 0px 8px 80px rgba(43, 112, 215, 0.623);
+  --nexttime-bs-hover: 0px 8px 80px #5566e598;
+  --entrenando-bs-hover: 0px 8px 80px #0000009d;
   background-color: var(--black);
 }
 

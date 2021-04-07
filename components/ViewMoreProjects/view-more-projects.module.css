@@ -1,0 +1,29 @@
+.moreProjectsContainer {
+  background: linear-gradient(180deg, #080808 0%, rgba(6, 12, 20, 0.76) 15.1%, rgba(2, 18, 37, 0.79) 37.5%, #080808 89.58%);
+}
+
+.moreProjectsContainer h2 {
+  background: -webkit-linear-gradient(-70deg,#3bf0e4,#bca1f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.moreProjectsContainer a {
+  font-size: 1rem;
+  border: solid 2px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(-70deg,#3bf0e4,#bca1f7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px var(--black) inset;
+}
+
+.moreProjectsContainer a:hover {
+  border: solid 2px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(-70deg,#bca1f7, #3bf0e4);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px var(--black) inset;
+}

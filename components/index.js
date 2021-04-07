@@ -5,3 +5,5 @@ export { NumberBubble } from './NumberBubble';
 export { ActionButton } from './ActionButton';
 export { LinkedInIcon } from './LinkedInIcon';
 export { WorkContainer } from './WorkContainer';
+export { ViewMoreProjects } from './ViewMoreProjects';
+export { Footer } from './Footer';
