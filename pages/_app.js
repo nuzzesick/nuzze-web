@@ -17,9 +17,9 @@ const App = ({ Component, pageProps }) => {
         <meta property="og:site_name" content="Nuzze" />
         <meta name="keywords" content="Software, Developer, Programmer, Web, Fullstack, Frontend, Backend" />
         <meta name="author" content="Nuzze" />
-        <meta property="og:url" content="https://www.nuzze.dev" />
+        <meta property="og:url" content="https://www.nuzze.co" />
         <meta property="og:description" content="I'm Nuzze a 21 years old Software developer born in La Plata, Buenos Aires." />
-        <meta property="og:image" content="https://www.nuzze.dev/images/seo-image.png" />
+        <meta property="og:image" content="https://www.nuzze.co/images/seo-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" value="@nuzzze" />
         <link rel="icon" type="image/png" href="images/favicon.png" />
