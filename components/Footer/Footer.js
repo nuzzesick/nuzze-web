@@ -6,19 +6,19 @@ import styles from './footer.module.css';
 const Footer = () => {
   const socialNetworks = [
     {
-      icon: <TwitterIcon className="w-4" />,
+      icon: <TwitterIcon className="w-5" />,
       style: styles.twitter,
       url: 'https://www.twitter.com/nuzzze/',
       name: 'twitter',
     },
     {
-      icon: <GitHubIcon className="w-4" />,
+      icon: <GitHubIcon className="w-5" />,
       style: styles.github,
       url: 'https://www.github.com/nuzzesick/',
       name: 'github',
     },
     {
-      icon: <LinkedInIcon className="w-4" />,
+      icon: <LinkedInIcon className="w-5" />,
       style: styles.linkedin,
       url: 'https://www.linkedin.com/in/mat%C3%ADas-nuccetelli-a028141a9/',
       name: 'linkedin',

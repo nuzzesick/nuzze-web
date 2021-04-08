@@ -1,0 +1,12 @@
+export { default as HTMLIcon } from './HTMLIcon';
+export { default as CSSIcon } from './CSSIcon';
+export { default as JavaScriptIcon } from './JavaScriptIcon';
+export { default as BootstrapIcon } from './BootstrapIcon';
+export { default as VueJSIcon } from './VueJSIcon';
+export { default as FigmaIcon } from './FigmaIcon';
+export { default as GitIcon } from './GitIcon';
+export { default as ReactJSIcon } from './ReactJSIcon';
+export { default as NextJSIcon } from './NextJSIcon';
+export { default as TalwindCSSIcon } from './TalwindCSSIcon';
+export { default as NodeJSIcon } from './NodeJSIcon';
+export { default as PostgreSQLIcon } from './PostgreSQLIcon';
