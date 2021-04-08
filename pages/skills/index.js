@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
+import Head from 'next/head';
 import {
   Header, WelcomeText, Footer,
 } from '../../components';
@@ -16,6 +17,9 @@ const Skills = ({ menu, setMenu }) => {
   }
   return (
     <>
+      <Head>
+        <title>Skills | Nuzze</title>
+      </Head>
       <div className="px-6 md:px-24 lg:px-36 xl:px-64 2xl:px-96" onClick={handleMenu} onKeyPress={handleMenu}>
         <Header menu={menu} setMenu={setMenu} />
         <div className="relative pt-36 mx-auto flex flex-col text-center">
