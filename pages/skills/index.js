@@ -10,6 +10,10 @@ const Skills = ({ menu, setMenu }) => {
   const handleMenu = () => {
     if (menu) setMenu(false);
   };
+  if (process.browser) {
+    const body = document.getElementsByTagName('body')[0];
+    body.style.backgroundImage = 'none';
+  }
   return (
     <>
       <div className="px-6 md:px-24 lg:px-36 xl:px-64 2xl:px-96" onClick={handleMenu} onKeyPress={handleMenu}>

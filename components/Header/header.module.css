@@ -4,6 +4,15 @@
   backdrop-filter: saturate(180%) blur(20px);
 }
 
+.logoContainer svg {
+  transition-duration: 0.3s;
+  fill: var(--logo);
+}
+
+.logoContainer:hover svg {
+  fill: var(--logo-hover);
+}
+
 .menuButton {
   border: none;
   outline: 0;

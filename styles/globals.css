@@ -7,6 +7,8 @@ body {
   font-family: -apple-system, 'Inter', sans-serif;
   --black: #090909;
   --black-opacity: #0909099f;
+  --logo: rgb(220, 220, 220);
+  --logo-hover: white;
   --menu: 0px 4px 10px #1c1c1cd5;
   --icon: #CACACA;
   --twitter-icon: #1DA1F2;

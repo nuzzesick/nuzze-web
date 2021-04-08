@@ -13,7 +13,7 @@ const Header = ({ menu, setMenu }) => {
     <div className={classnames(styles.header, 'fixed w-full h-20 left-0 right-0 px-6 md:px-24 lg:px-36 xl:px-64 2xl:px-96 z-20')}>
       <div className="flex items-center justify-between text-white h-20">
         <Link href="/">
-          <div className="cursor-pointer">
+          <div className={classnames(styles.logoContainer, 'cursor-pointer')}>
             <Logo className="w-28" />
           </div>
         </Link>
