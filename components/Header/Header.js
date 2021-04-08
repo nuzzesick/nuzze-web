@@ -36,7 +36,7 @@ const Header = ({ menu, setMenu }) => {
               <Link href="/about">About</Link>
             </div>
             <div className="my-1 text-gray-400 hover:text-white">
-              <a href="/resume.pdf" target="_blank">Resume</a>
+              <a href="cv/MATIAS_NUCCETELLI_CV_EN.pdf" target="_blank">Resume</a>
             </div>
           </div>
           )}
