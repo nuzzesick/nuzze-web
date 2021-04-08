@@ -21,7 +21,7 @@ const Skills = ({ menu, setMenu }) => {
         </div>
         <div className="relative pt-16 mx-auto flex flex-col text-center">
           <span className="text-gray-600 font-semibold text-sm uppercase mb-8">Skills</span>
-          <div className="my-12 text-left grid grid-cols-3 2xl:grid-cols-4 gap-4">
+          <div className="my-12 text-left grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4">
             {
               skills.map((s) => (
                 <div
