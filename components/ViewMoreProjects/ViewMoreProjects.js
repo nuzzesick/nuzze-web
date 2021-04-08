@@ -12,7 +12,7 @@ const ViewMoreProjects = () => {
   return (
     <div className={classnames(styles.moreProjectsContainer, 'my-4')}>
       <div className="px-6 md:px-24 lg:px-36 xl:px-64 2xl:px-96 py-28 flex flex-col items-center">
-        <h2 className="font-bold text-4xl">More stuff on GitHub</h2>
+        <h2 className="font-bold text-4xl text-center">More stuff on GitHub</h2>
         <span className="text-md text-gray-200 mt-3 text-center">
           I have
           {' '}
