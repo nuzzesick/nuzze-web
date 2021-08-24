@@ -3,7 +3,7 @@ const works = [
     startDate: 'Nov 2020',
     endDate: 'Now',
     name: 'Datia',
-    role: 'Junior Software Engineer',
+    role: 'Software Engineer',
     description: 'Datia helps you automate your sustainability workflows and manage the EU Taxonomy and Sustainable Finance Disclosure Regulation.',
     type: 'job',
     url: 'https://www.linkedin.com/company/datiaapp/',
