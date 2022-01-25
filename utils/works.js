@@ -26,7 +26,7 @@ const works = [
     role: 'Creator',
     description: "Bitflix is an open source web application that allows you to watch movies through torrents directly in your browser. I'm the creator, developer, designer and maintainer of the app, but it is also connected to third party API's and projects.",
     type: 'project',
-    url: 'https://bitflix.surge.sh',
+    url: 'https://bitflixapp.com',
     image: '../images/bitflix.png',
   },
   {
