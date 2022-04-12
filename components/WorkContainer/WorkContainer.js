@@ -28,7 +28,7 @@ const WorkContainer = ({ w, index }) => {
           </span>
           <span className="block font-normal text-gray-300 text-md">{w.description}</span>
           <div className="flex mt-8 justify-center md:justify-between">
-            <ActionButton url={w.url} type={w.type} />
+            <ActionButton url={w.url} type={w.type} gradient={w.gradient} />
           </div>
         </div>
       </div>
@@ -51,6 +51,7 @@ WorkContainer.propTypes = {
     startDate: PropTypes.string,
     type: PropTypes.string,
     url: PropTypes.string,
+    gradient: PropTypes.string,
   }).isRequired,
   index: PropTypes.number.isRequired,
 };

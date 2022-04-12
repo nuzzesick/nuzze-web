@@ -20,7 +20,7 @@ const Footer = () => {
     {
       icon: <LinkedInIcon className="w-5" />,
       style: styles.linkedin,
-      url: 'https://www.linkedin.com/in/mat%C3%ADas-nuccetelli-a028141a9/',
+      url: 'https://www.linkedin.com/in/nuzze',
       name: 'linkedin',
     },
   ];

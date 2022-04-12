@@ -1,8 +1,13 @@
-.actionButton svg {
-  fill: var(--icon);
-  margin: 0 0.6rem 0 0;
+.actionButton {
+  transition: 0.3s;
 }
 
-.actionButton:hover svg {
-  fill: var(--linkedin-icon);
+.actionButton:hover {
+  transform: scale(1.05);
+}
+
+.actionButton svg {
+  fill: var(--white);
+  margin: 0 0.6rem 0 0;
+  transition: 0.3s;
 }

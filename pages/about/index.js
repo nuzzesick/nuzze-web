@@ -10,12 +10,6 @@ const About = ({ menu, setMenu }) => {
   const handleMenu = () => {
     if (menu) setMenu(false);
   };
-  if (process.browser) {
-    const body = document.getElementsByTagName('body')[0];
-    body.style.backgroundImage = "url('../../images/about-background.png')";
-    body.style.backgroundSize = 'cover';
-    body.style.backgroundRepeat = 'no-repeat';
-  }
   return (
     <>
       <Head>
@@ -37,14 +31,16 @@ const About = ({ menu, setMenu }) => {
               <span className="font-semibold">Matías Nuccetelli</span>
               {' '}
               but everybody calls me: “Nuzze”.
-              I&apos;m a 21 years old Software developer born in La Plata, Buenos Aires.
+              <br />
+              I&apos;m a 22 years old Software developer born and raised in Buenos Aires,
+              Argentina. 🇦🇷
               <br />
               I love the web-world since I&apos;m a child (I think it inspired me when
               I saw the movie: &quot;The Social Network&quot;).
               <br />
-              At the age of 15 when I was at high-school, I started coding in HTML &amp; CSS,
-              and I was so very excited about these technologies, so at 17, I started programming
-              in JavaScript and my mind started blowing.
+              At the age of 15, I started coding in HTML &amp; CSS,
+              and since I was so very excited about these technologies at the age of 17
+              I started programming in JavaScript and my mind started blowing.
               <br />
               My experience at the university was not the best, therefore
               {' '}
@@ -53,15 +49,14 @@ const About = ({ menu, setMenu }) => {
                 learned on my own.
               </span>
               <br />
-              I also love UI/UX design so I always dedicated myself to the frontend and to build
-              beautiful websites.
+              I also love UI/UX design so I always dedicated myself to the frontend side and
+              to build and ship performant and easy-to-use websites.
               <br />
-              Right now I&apos;m more focused on learning databases and backend to be a completely
-              Fullstack developer.
+              I&apos;m fully focused on learning about accessibility and DX.
               <br />
               And of course, as a good argentinian
               {' '}
-              <span className="font-semibold">I love soccer and mate.</span>
+              <span className="font-semibold">I love soccer and mate. ⚽🧉</span>
               <br />
               If you want to have a nice talk, do not hesitate to contact me.
             </span>

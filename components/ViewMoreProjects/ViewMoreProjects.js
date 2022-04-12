@@ -4,11 +4,13 @@ import styles from './view-more-projects.module.css';
 
 const ViewMoreProjects = () => {
   const [data, setData] = React.useState([]);
+
   React.useEffect(async () => {
     const res = await fetch('https://api.github.com/users/nuzzesick');
     const json = await res.json();
     setData(json);
   }, []);
+
   return (
     <div className={classnames(styles.moreProjectsContainer, 'my-4')}>
       <div className="px-6 md:px-24 lg:px-36 xl:px-64 2xl:px-96 py-28 flex flex-col items-center">

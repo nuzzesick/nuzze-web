@@ -7,6 +7,7 @@ body {
   font-family: -apple-system, 'Inter', sans-serif;
   --black: #090909;
   --black-opacity: #0909099f;
+  --white: #f2f2f2;
   --logo: rgb(220, 220, 220);
   --logo-hover: white;
   --menu: 0px 4px 10px #1c1c1cd5;
@@ -14,16 +15,16 @@ body {
   --twitter-icon: #1DA1F2;
   --github-icon: #5b5b5b;
   --linkedin-icon: #0A66C2;
-  --datia-bs: 0px 4px 45px rgba(125, 69, 223, 0.5);
-  --rather-bs: 0px 4px 45px rgba(88, 64, 238, 0.5);
-  --bitflix-bs: 0px 4px 45px rgba(43, 112, 215, 0.256);
-  --nexttime-bs: 0px 4px 45px #5566e577;
-  --entrenando-bs: 0px 4px 45px #00000077;
-  --datia-bs-hover: 0px 8px 80px rgba(125, 69, 223, 0.637);
-  --rather-bs-hover: 0px 8px 80px rgba(87, 64, 238, 0.63);
-  --bitflix-bs-hover: 0px 8px 80px rgba(43, 112, 215, 0.534);
-  --nexttime-bs-hover: 0px 8px 80px #5566e598;
-  --entrenando-bs-hover: 0px 8px 80px #0000009d;
+  --datia-bs: 0px 4px 45px rgba(125, 69, 223, 0.325);
+  --rather-bs: 0px 4px 45px rgba(87, 64, 238, 0.317);
+  --bitflix-bs: 0px 4px 45px rgba(43, 112, 215, 0.092);
+  --nexttime-bs: 0px 4px 45px #5566e544;
+  --runny-bs: 0px 4px 45px #72f17d2e;
+  --datia-bs-hover: 0px 8px 80px rgba(125, 69, 223, 0.426);
+  --rather-bs-hover: 0px 8px 80px rgba(87, 64, 238, 0.454);
+  --bitflix-bs-hover: 0px 8px 80px rgba(43, 112, 215, 0.125);
+  --nexttime-bs-hover: 0px 8px 80px #5566e567;
+  --runny-bs-hover: 0px 8px 80px #7ce9693b;
   background-color: var(--black);
 }
 

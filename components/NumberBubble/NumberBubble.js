@@ -56,15 +56,25 @@ const NumberBubble = ({ w, index }) => (
       <stop stopColor="#5038E0" />
       <stop offset="1" stopColor="#423FEE" />
     </linearGradient>
-    {/* Entrenando */}
-    <linearGradient id="Entrenando" x1="65.4712" y1="0.00251966" x2="65.8034" y2="32.507" gradientUnits="userSpaceOnUse">
-      <stop stopColor="#353638" stopOpacity="0.09" />
-      <stop offset="1" stopColor="#1C1815" />
+    {/* Runny */}
+    <linearGradient id="Runny" x1="65.4712" y1="0.00251966" x2="65.8034" y2="32.507" gradientUnits="userSpaceOnUse">
+      <stop stopColor="#353835" stopOpacity="0.09" />
+      <stop offset="1" stopColor="#30974D" />
     </linearGradient>
-    <linearGradient id="EntrenandoCircle" x1="88.9981" y1="67.0893" x2="64.4959" y2="67.0932" gradientUnits="userSpaceOnUse">
-      <stop />
-      <stop offset="1" stopColor="#1C1815" />
+    <linearGradient id="RunnyCircle" x1="88.9981" y1="67.0893" x2="64.4959" y2="67.0932" gradientUnits="userSpaceOnUse">
+      <stop stopColor="#5DF387" />
+      <stop offset="1" stopColor="#25BF75" />
     </linearGradient>
+    {/* Storm */}
+    <linearGradient id="Storm" x1="65.4712" y1="0.00251966" x2="65.8034" y2="32.507" gradientUnits="userSpaceOnUse">
+      <stop stopColor="#353835" stopOpacity="0.09" />
+      <stop offset="1" stopColor="#5371D3" />
+    </linearGradient>
+    <linearGradient id="StormCircle" x2="64.4959" y2="61.0932" gradientUnits="userSpaceOnUse">
+      <stop stopColor="#5371D3" />
+      <stop offset="1" stopColor="#3C66EE" />
+    </linearGradient>
+
   </svg>
 );
 
