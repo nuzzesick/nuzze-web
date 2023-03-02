@@ -26,23 +26,8 @@
   outline: 0;
 }
 
-.menuButton img {
-  filter: grayscale(100);
-  transition-duration: 0.4s;
-}
-
 .menuButton svg {
-  filter: grayscale(100);
-  transition-duration: 0.4s;
   margin-left: 0.3rem;
-}
-
-.menuButton:hover img {
-  filter: grayscale(100) brightness(0.6);
-}
-
-.menuButton:hover svg {
-  filter: grayscale(100) brightness(0.6);
 }
 
 .menu {
