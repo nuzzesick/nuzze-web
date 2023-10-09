@@ -32,7 +32,7 @@ const About = ({ menu, setMenu }) => {
               {' '}
               but everybody calls me: “Nuzze”.
               <br />
-              I&apos;m a 22 years old Software developer born and raised in Buenos Aires,
+              I&apos;m a 23 years old Software developer born and raised in Buenos Aires,
               Argentina. 🇦🇷
               <br />
               I love the web-world since I&apos;m a child (I think it inspired me when
